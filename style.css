@@ -55,4 +55,8 @@
     margin-right: 0;
     margin-top: 80px;
   }
+  .table{
+    display: flex;
+    justify-content: space-between;
+  }
   

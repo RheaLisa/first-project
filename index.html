@@ -1,4 +1,4 @@
-<<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="ru">
 <head>
   <meta charset="UTF-8">
@@ -11,15 +11,14 @@
   <div class="page">
     <header class="header">
      
-       <p class="logo header__logo">Яндекс Практикум</p>
-       <h1 class='header_title'>Научиться учиться</h1>
-       <div class='subtitle'>
-        <a href="#" class="block_link"> 
-          <p class='block_title'>Какие современные и эффективные подходы к обучению вы можете использовать в своей жизни? Узнать</p>
-          </a>
-        
-      </div>
-       
+       <p class="header__logo">Яндекс Практикум</p>
+       <h1 class='header__title'>Научиться учиться</h1>
+       <div class='header__subtitle'> 
+        <p class='block_title'>Какие современные и эффективные подходы к обучению вы можете использовать в своей жизни?</p>
+        <a href="#" class="header__link">Узнать?</a>
+               
+        </div>
+     
         <div class='link'></div>
           <img class='header_picture' src="./images/header-image.png" alt="#">
            <div class='square-pic header__square-pic'>
@@ -39,33 +38,45 @@
       <section class="digits">
         <h1 class='title'>Цифры и факты</h1>
         <h2 class='subtitle'>Про учебу и мозг</h2>
-        <table class='list'>
-          <tr>
-            <th>86 миллиардов</th>
-            <th>2,1 миллиарда</th>
-            <th>1000 террабайт</th>
-            <th>500 триллионов</th>
-          </tr>
-          <tr>
-            <td>Число нейронов в мозге человека</td>
-            <td>
-              <p class='table-text'>Число нуждающихся в повышении квалификации.</p> Всемирный Банк, 2017</td>
-            <td>Объем памяти в мозге человека</td>
-            <td>Число ответственных за обучение нервных синапсов у взрослого человека</td>
-          </tr>
-          <tr>
-            <th>420 миллионов</th>
-            <th>17-20 лет</th>
-            <th>1885 год</th>
-            <th>1889 год</th>
-          </tr>
-          <tr>
-            <td> <p class='table-text'>Число нуждающихся в повышении квалификации.</p> Всемирный Банк, 2017</td>
-            <td>Пик обучаемости</td>
-            <td>Открытие кривой забывания</td>
-            <td>Открытие условного рефлекса </td>
-        </table>
-      </section>
+        <div class='table'>
+          <div class='table__cell'>
+            <h3 class='table__heading'>86 миллиардов</h3>
+            <span class='table__text'>Число нейронов в мозге человека</span>
+          </div>
+          <div class='table__cell'>
+            <h3 class='table__heading'>2,1 миллиарда</h3>
+            <span class='table__text'>Число нуждающихся в повышении квалификации.</span>
+          </div>
+          <div class='table__cell'>
+            <h3 class='table__heading'>1000 террабайт</h3>
+            <span class='table__text'>Объем памяти в мозге человека</span>
+          </div>
+          <div class='table__cell'>
+            <h3 class='table__heading'>500 триллионов</h3>
+            <span class='table__text'>Число ответственных за обучение нервных синапсов у взрослого человека</span>
+          </div>
+          <div class='table__cell'>
+            <h3 class='table__heading'>420 миллионов</h3>
+            <span class='table__text'>Число нуждающихся в повышении квалификации.</span>
+          </div>
+          <div class='table__cell'>
+            <h3 class='table__heading'>17-20 лет</h3>
+            <span class='table__text'>Пик обучаемости</span>
+          </div>
+          <div class='table__cell'>
+            <h3 class='table__heading'>1885 год</h3>
+            <span class='table__text'>Открытие кривой забывания</span>
+          </div>
+          <div class='table__cell'>
+            <h3 class='table__heading'>1889 год</h3>
+            <span class='table__text'>Открытие условного рефлекса</span>
+          </div>
+         
+         
+         
+         
+            
+            </section>
 
       <section class="feynman">
         <h1 class='header_title'>Метод Феймана</h1>
@@ -83,35 +94,51 @@
       <section class="kaufman">
         <h1 class='title'>Принципы обучения</h1>
         <h2 class='subtitle'>от Джоша Кауфмана</h2>
-        <table class='kaufman_table'>
-          <tr>
-            <th>1</th>
-            <th>2</th>
-            <th>3</th>
-            <th>4</th>
-            <th>5</th>
-          </tr>
-          <tr>
-            <td>Выберите привлекательный проект</td>
-            <td>Сосредоточьтесь на каком то одном навыке</td>
-            <td>Определите целевой уровень мастерства</td>
-            <td>Разбейте навык на элементы</td>
-            <td>Приготовьте все необходимое для занятий</td>
-          </tr>
-          <tr>
-            <th>6</th>
-            <th>7</th>
-            <th>8</th>
-            <th>9</th>
-            <th>10</th>
-          </tr>
-          <tr>
-            <td>Устраните препятствия для занятий</td>
-            <td>Выделите специальное время для занятий</td>
-            <td>Создайте быстрые петли для обратной связи</td>
-            <td>Занимайтесь по расписанию, короткими интенсивными интервалами</td>
-            <td>Уделяйте внимание количеству и скорости</td>
-        </table>
+        <div class='table'>
+          
+          <div class='table__cell'>
+            <h3 class='table__cell-title'>1</h3>
+            <span class='table__text'>Выберите привлекательный проект</span>
+          </div>
+          <div class='table__cell'>
+            <h3 class='table__heading'>2</h3>
+            <span class='table__text'>Сосредоточьтесь на каком то одном навыке</span>
+          </div>
+          <div class='table__cell'>
+            <h3 class='table__heading'>3</h3>
+            <span class='table__text'>Определите целевой уровень мастерства</span>
+          </div>
+          <div class='table__cell'>
+            <h3 class='table__heading'>4</h3>
+            <span class='table__text'>Разбейте навык на элементы</span>
+          </div>
+          <div class='table__cell'>
+            <h3 class='table__heading'>5</h3>
+            <span class='table__text'>Приготовьте все необходимое для занятий</span>
+          </div>
+          <div class='table__cell'>
+            <h3 class='table__heading'>6</h3>
+            <span class='table__text'>Устраните препятствия для занятийя</span>
+          </div>
+          <div class='table__cell'>
+            <h3 class='table__heading'>7</h3>
+            <span class='table__text'>Сосредоточьтесь на каком то одном навыке</span>
+          </div> 
+          <div class='table__cell'>
+            <h3 class='table__heading'>8</h3>
+            <span class='table__text'>Определите целевой уровень мастерства</span>
+          </div> 
+          <div class='table__cell'>
+            <h3 class='table__heading'>9</h3>
+            <span class='table__text'>Разбейте навык на элементы</span>
+          </div> 
+          <div class='table__cell'>
+            <h3 class='table__heading'>10</h3>
+            <span class='table__text'>Приготовьте все необходимое для занятий</span>
+          </div>
+         
+          
+        </div>
       </section>
     </main>
     <footer class="footer">
@@ -120,3 +147,4 @@
   </div>
 </body>
 </html>
+
