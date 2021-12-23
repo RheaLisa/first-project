@@ -1,27 +1,31 @@
-<!DOCTYPE html>
+<!DOCTYPE html><!DOCTYPE html>
 <html lang="ru">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="./styles/normalize.css">
-  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="./styles/style.css">
   <title>Научиться учиться</title>
 </head>
 <body>
   <div class="page">
     <header class="header">
-     
-       <div class="logo_place_header">Яндекс Практикум</div>
+     <div class='block'>
+       <div class="logo_place_header">
+        <img class='logo_place_header' src="./images/logo_place_footer.svg" alt="#">
+        </div>
        <h1 class='header__title'>Научиться учиться</h1>
        <div class='header__subtitle'> 
         <p class='block_title'>Какие современные и эффективные подходы к обучению вы можете использовать в своей жизни?</p>
         <a href="#" class="header__link">Узнать?</a>
-               
+             
         </div>
-     
-        <div class='link'></div>
-          <img class='header_picture' src="./images/header-image.png" alt="#">
-           <div class='square-pic header__square-pic'>
+          <div class='header__link'></div>
+        </div>
+          <div class='header__main-illustration'>
+          <img class='header__main-illustration' src="./images/header-image.png" alt="#">
+        </div>
+           <div class='header__square-pic'>
         </div>
     </header>
     <main class="content">
@@ -96,10 +100,12 @@
       <section class="kaufman">
         <h1 class='title'>Принципы обучения</h1>
         <h2 class='subtitle'>от Джоша Кауфмана</h2>
+        <img src="./images/kaufman-triangle.svg" alt="#" class="kaufman__triangle">
+       
         <div class='table table_dark_theme'>
           
-          <div class='table__cell table__cell_dark_theme'>
-            <h3 class='table__cell-title'>1</h3>
+          <div class='table__cell'>
+            <h3 class='table__heading'>1</h3>
             <span class='table__text'>Выберите привлекательный проект</span>
           </div>
           <div class='table__cell table__cell_dark_theme'>
@@ -153,11 +159,35 @@
         <div class='footer__colomns_info'>
           <div class='footer__column-heading'>о Практикуме</div>
           <div class='footer__colomn-links'>
-            
+            <ul class='link__list'>
+              <li class='link__item'>
+                <a href="#" class="menu__link">Главная</a>
+              </li>
+              <li class='link__item'>
+                <a href="#" class="menu__link">Концепция</a>
+              </li>
+              <li class='link__item'>
+                <a href="#" class="menu__link">Наставники</a>
+              </li>
+            </ul>
           </div>
         </div>
         <div class='footer__colomns_social'>
-          
+          <div class='footer__column-heading'>Соцсети</div>
+          <div class='footer__social-icon'>
+            <ul class='social__link'>
+              <li class='social__item'>
+                <a href="#" class="social__link">Facebook</a>
+              </li>
+              <li class='social__item'>
+                <a href="#" class="social__link">ВКонтакте</a>
+              </li>
+              <li class='social__item'>
+                <a href="#" class="social__link">Instagram</a>
+              </li>
+            </ul>
+          </div>
+        </div> 
         </div>
       </div>
     </footer>
