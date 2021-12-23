@@ -4,14 +4,14 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="./styles/normalize.css">
-  <link rel="stylesheet" href="./styles/style.css">
+  <link rel="stylesheet" href="./style.css">
   <title>Научиться учиться</title>
 </head>
 <body>
   <div class="page">
     <header class="header">
      
-       <p class="header__logo">Яндекс Практикум</p>
+       <div class="logo_place_header">Яндекс Практикум</div>
        <h1 class='header__title'>Научиться учиться</h1>
        <div class='header__subtitle'> 
         <p class='block_title'>Какие современные и эффективные подходы к обучению вы можете использовать в своей жизни?</p>
@@ -26,12 +26,14 @@
     </header>
     <main class="content">
       <section class="description">
-        <div class=brief></div>
-        <div class='description-content'>
-          <p class='main-text'>Ни в школе, ни в институте нас не учат тому, как правильно изучать материал. Мы готовимся к экзаменам и учим билеты. Мы тренируемся решать днообразные задачи, чтобы лучше сдать тест, но часто в итоге это не дает нам реального знания. Зубрежка быстро выветривается и не приносит пользы.</p>
-          <p class='text-conclusion'>Вывод: учиться тоже нужно уметь, но почему-то этому мало где учат.Что с этим делать?</p>
-          <p class='paragraph'>Конкретные техники и упражнения помогают изменить подход к обучению, сделать его эффективным и захватывающим. Эти же техники применяются на примере обучения в Практикуме.</p>
+        <div class='two-colomn'>
+        <div class= 'two-colomn__brief'>Главные проблемы в обучении</div>
+        <div class='two-colomn__main-text'>
+          <p class='two-colomn__paragraph'>Ни в школе, ни в институте нас не учат тому, как правильно изучать материал. Мы готовимся к экзаменам и учим билеты. Мы тренируемся решать днообразные задачи, чтобы лучше сдать тест, но часто в итоге это не дает нам реального знания. Зубрежка быстро выветривается и не приносит пользы.</p>
+          <span class='span-accent'>Вывод: учиться тоже нужно уметь, но почему-то этому мало где учат.Что с этим делать?</span>
+          <p class='two-colomn__paragraph'>Конкретные техники и упражнения помогают изменить подход к обучению, сделать его эффективным и захватывающим. Эти же техники применяются на примере обучения в Практикуме.</p>
         </div>
+      </div>
 
       </section>
 
@@ -94,55 +96,70 @@
       <section class="kaufman">
         <h1 class='title'>Принципы обучения</h1>
         <h2 class='subtitle'>от Джоша Кауфмана</h2>
-        <div class='table'>
+        <div class='table table_dark_theme'>
           
-          <div class='table__cell'>
+          <div class='table__cell table__cell_dark_theme'>
             <h3 class='table__cell-title'>1</h3>
             <span class='table__text'>Выберите привлекательный проект</span>
           </div>
-          <div class='table__cell'>
+          <div class='table__cell table__cell_dark_theme'>
             <h3 class='table__heading'>2</h3>
             <span class='table__text'>Сосредоточьтесь на каком то одном навыке</span>
           </div>
-          <div class='table__cell'>
+          <div class='table__cell table__cell_dark_theme'>
             <h3 class='table__heading'>3</h3>
             <span class='table__text'>Определите целевой уровень мастерства</span>
           </div>
-          <div class='table__cell'>
+          <div class='table__cell table__cell_dark_theme'>
             <h3 class='table__heading'>4</h3>
             <span class='table__text'>Разбейте навык на элементы</span>
           </div>
-          <div class='table__cell'>
+          <div class='table__cell table__cell_dark_theme'>
             <h3 class='table__heading'>5</h3>
             <span class='table__text'>Приготовьте все необходимое для занятий</span>
           </div>
-          <div class='table__cell'>
+          <div class='table__cell table__cell_dark_theme'>
             <h3 class='table__heading'>6</h3>
             <span class='table__text'>Устраните препятствия для занятийя</span>
           </div>
-          <div class='table__cell'>
+          <div class='table__cell table__cell_dark_theme'>
             <h3 class='table__heading'>7</h3>
             <span class='table__text'>Сосредоточьтесь на каком то одном навыке</span>
           </div> 
-          <div class='table__cell'>
+          <div class='table__cell table__cell_dark_theme'>
             <h3 class='table__heading'>8</h3>
             <span class='table__text'>Определите целевой уровень мастерства</span>
           </div> 
-          <div class='table__cell'>
+          <div class='table__cell table__cell_dark_theme'>
             <h3 class='table__heading'>9</h3>
             <span class='table__text'>Разбейте навык на элементы</span>
           </div> 
-          <div class='table__cell'>
+          <div class='table__celltable__cell_dark_theme'>
             <h3 class='table__heading'>10</h3>
             <span class='table__text'>Приготовьте все необходимое для занятий</span>
           </div>
-         
-          
+                
         </div>
       </section>
     </main>
     <footer class="footer">
-
+      <div class='footer__colomns'>
+        <div class= 'footer__colomns_content'>
+        <div class='logo_place_footer'>
+          <img class='footer' src="./images/logo_place_footer.svg" alt="#">
+        </div>
+        <div class='footer__author'>2019 Виктор Абанькин</div>
+        </div>
+        <div class='footer__colomns_info'>
+          <div class='footer__column-heading'>о Практикуме</div>
+          <div class='footer__colomn-links'>
+            
+          </div>
+        </div>
+        <div class='footer__colomns_social'>
+          
+        </div>
+      </div>
     </footer>
   </div>
 </body>

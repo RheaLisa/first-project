@@ -12,8 +12,7 @@
   
   .header {
     height: 100vh;
-    
-    
+       
     display: inline-block;
   }
   .logo{
@@ -47,11 +46,15 @@
     background-position: center;
   
   }
+  .two-colomn {
+    display: flex;
+    
+  }
   
   /* и элемента с модификатором вида ключ-значение */
-  .table__cell_theme_dark {
+  .table__cell_dark_theme {
     width: 200px;
-    color: white;
+    color: black;
     margin-right: 0;
     margin-top: 80px;
   }
