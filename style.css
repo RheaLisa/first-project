@@ -17,6 +17,12 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    position: relative;
+  }
+  .block {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
   }
   .logo_place_header{
     min-height: 32px;
@@ -35,47 +41,83 @@
     margin-left: 64px;
   }
  
-  .header_picture {
-    width: 608px;
-    height: 765px;
-    
-  }
+
   .square-pic{
     color: blue;
     background:blue;
     height: 568px;
     width: 568px;
+    margin-top: 64px;
+   
   }
   .header__main-illustration {
       z-index: 0;
+      display: flex;
+      justify-content: flex-end;
+      width: 608px;
+      height: 765px;
   }
   /* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
   .header__square-pic {
     height: 568px;
     width: 568px;
     background:blue;
-    color: blue;
+    
     background-size: cover;
     background-position: center;
     z-index: 1;
+    position: absolute;
+    align-self: flex-end;
+    display: flex;
+    margin-top: 64px;
   
   }
   .two-colomn {
     display: flex;
+    margin-top: 100px;
+    min-width: 784px;
+    width: 80%;
+    margin-left: 100px;
+   margin-right: 100px;
     
   }
-  
+  .two-colomn__brief {
+    line-height: 1.2;
+    font-size: 18px;
+    font-weight: normal;
+    display: flex;
+    width: 175px;
+  }
+  .two-colomn__paragraph {
+    line-height: 34px;
+    font-size: 24px;
+    font-weight: normal;
+  }
+  .two-colomn__span-accent {
+    line-height: 34px;
+    font-size: 24px;
+    font-weight:bold;
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+  }
   /* и элемента с модификатором вида ключ-значение */
-  .table__cell_dark_theme {
+  .table__cell_theme_dark {
     width: 200px;
-    color: black;
+    color: rgb(250, 245, 245);
     margin-right: 0;
     margin-top: 80px;
+    background-color: black;
+  }
+  .digits {
+display: flex;
+flex-direction: column;
   }
   .table{
     display: flex;
-    justify-content: space-between;
+    
   }
+
   
   .kaufman{
     background-color: #000000;
@@ -86,10 +128,10 @@
     position: relative;
   }
   .table__heading {
-      color: white;
+      color: rgb(7, 7, 7);
   }
   .table__text {
-      color: white;
+      color: rgb(14, 13, 13);
   }
   
   .kaufman__triangle{
