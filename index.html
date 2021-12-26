@@ -9,40 +9,34 @@
 </head>
 <body>
   <div class="page">
-    <header class="header">
-     <div class='block'>
-        <div class="logo_place_header">
-          <img class='logo_place_header' src="./images/logo_place_footer.svg" alt="#">
-        </div>
-        <h1 class='header__title'>Научиться учиться</h1>
-        <div class='header__subtitle'> 
-          <p class='block_title'>Какие современные и эффективные подходы к обучению вы можете использовать в своей жизни?</p>
-          <a href="#" class="header__link">Узнать?</a>
-         </div>
-      </div>
-      <div class='header__square-pic'></div>
-      <div class='header__main-illustration'>
-          <img class='main-illustration' src="./images/header-image.png" alt="#">
-        </div>
+    <header class="header border">
        
+      <img class="logo logo_place_header" alt="Яндекс.Практикум" src="./images/logo_place_header.svg">
+        <h1 class="header__title">Научиться учиться</h1>
+        <p class="header__subtitle">Какие современные и эффективные подходы к обучению вы можете использовать в своей жизни?
+          <a class="header__link" href="#">Узнать?</a>
+        </p>
       
-    </header>
+         <img class="header__main-illustration" alt="Ученик пришел домой" src="./images/header-image.png">
+        <div class="header__square-pic"></div>
+      </header>
+    
     <main class="content">
-      <section class="description">
+      <section class="description border">
         <div class='two-colomn'>
         <div class= 'two-colomn__brief'>Главные проблемы в обучении</div>
-        <div class='two-colomn__main-text'>
+        <div class='two-colomn__main-text '>
           <div class='two-colomn__paragraph'>Ни в школе, ни в институте нас не учат тому, как правильно изучать материал. Мы готовимся к экзаменам и учим билеты. Мы тренируемся решать однообразные задачи, чтобы лучше сдать тест, но часто в итоге это не дает нам реального знания. Зубрежка быстро выветривается и не приносит пользы.</div>
-          <div class='two-colomn__span-accent'>
-          <span class='span-accent'>Вывод: учиться тоже нужно уметь, но почему-то этому мало где учат.Что с этим делать?</span>
-        </div>
+         
+          <span class='two-colomn__span-accent'>Вывод: учиться тоже нужно уметь, но почему-то этому мало где учат.Что с этим делать?</span>
+        
           <div class='two-colomn__paragraph'>Конкретные техники и упражнения помогают изменить подход к обучению, сделать его эффективным и захватывающим. Эти же техники применяются на примере обучения в Практикуме.
         </div>
       </div>
     </div>
       </section>
 
-      <section class="digits">
+      <section class="digits border">
         <div class='section-title'><h3>Цифры и факты</h3></div>
         <div class='section-subtitle'>Про учебу и мозг</div>
         <div class='table'>
@@ -52,7 +46,10 @@
           </div>
           <div class='table__cell'>
             <div class='table__heading'>2,1 миллиарда</div>
-            <div class='table__text'>Число нуждающихся в повышении квалификации.</div>
+            <div class='table__text'>
+              <p>Число нуждающихся в повышении квалификации.</p>
+            <span class='bank'>Всемирный Банк, 2017</span>
+            </div>
           </div>
           <div class='table__cell'>
             <div class='table__heading'>1000 террабайт</div>
@@ -64,7 +61,10 @@
           </div>
           <div class='table__cell'>
             <div class='table__heading'>420 миллионов</div>
-            <div class='table__text'>Число нуждающихся в повышении квалификации.</div>
+            <div class='table__text'>
+             <p> Число нуждающихся в повышении квалификации.</p>
+              <span class='bank'>Всемирный Банк, 2017</span>
+            </div>
           </div>
           <div class='table__cell'>
             <div class='table__heading'>17-20 лет</div>
@@ -82,71 +82,69 @@
                   
                </section>
 
-      <section class="feynman">
-        <h1 class='header__title'>Метод Феймана</h1>
-        <h2 class='header__subtitle'>Выучить и не забыть</h2>
-         <a href="#" class="block_link"> 
+      <section class="feynman border">
+       <h2 class="feynman__title">Метод Фейнмана</h2>
+        <h3 class='feynman__subtitle'>Выучить и не забыть</h3>
+         <a href="#" class="feynman__link"> 
            <p class='block_title'> Подробнее</p>
            </a>
-         
-            
-         <div class='link'></div>
-           <img class='feynman_picture' src="./images/feynman.png" alt="#">
+            <img class='feynman__picture' src="./images/feynman.png" alt="#">
             
       </section>
 
-      <section class="kaufman">
-        <h1 class='title'>Принципы обучения</h1>
-        <h2 class='subtitle'>от Джоша Кауфмана</h2>
+      <section class="kaufman border">
+        <div class='section-title section-title_theme_dark'><h3>Принципы обучения</h3></div>
+        <div class='section-subtitle section-subtitle_theme_dark'>от Джоша Кауфмана</div>
+        
         <img src="./images/kaufman-triangle.svg" alt="#" class="kaufman__triangle">
        
         <div class='table '>
           
-          <div class='table__cell'>
-            <h3 class='table__heading'>1</h3>
-            <span class='table__text'>Выберите привлекательный проект</span>
+          <div class='table__cell table__cell_theme_dark'>
+            <div class='table__heading'>1</div>
+            <div class='table__text'>Выберите привлекательный проект</div>
           </div>
           <div class='table__cell table__cell_theme_dark'>
-            <h3 class='table__heading'>2</h3>
-            <span class='table__text'>Сосредоточьтесь на каком то одном навыке</span>
+            <div class='table__heading'>2</div>
+            <div class='table_theme_dark table__text'>Сосредоточьтесь на каком то одном навыке</div>
           </div>
           <div class='table__cell table__cell_theme_dark'>
-            <h3 class='table__heading table_theme_dark'>3</h3>
-            <span class='table__text'>Определите целевой уровень мастерства</span>
+            <div class='table__heading table_theme_dark'>3</div>
+            <div class='table__text'>Определите целевой уровень мастерства</div>
           </div>
           <div class='table__cell table__cell_theme_dark'>
-            <h3 class='table__heading'>4</h3>
-            <span class='table__text'>Разбейте навык на элементы</span>
+            <div class='table__heading'>4</div>
+            <div class='table__text'>Разбейте навык на элементы</div>
           </div>
           <div class='table__cell table__cell_theme_dark'>
-            <h3 class='table__heading'>5</h3>
-            <span class='table__text'>Приготовьте все необходимое для занятий</span>
+            <div class='table__heading'>5</div>
+            <div class='table__text'>Приготовьте все необходимое для занятий</div>
           </div>
           <div class='table__cell table__cell_theme_dark'>
-            <h3 class='table__heading'>6</h3>
-            <span class='table__text'>Устраните препятствия для занятийя</span>
+            <div class='table__heading'>6</div>
+            <div class='table__text'>Устраните препятствия для занятийя</div>
           </div>
           <div class='table__cell table__cell_theme_dark'>
-            <h3 class='table__heading'>7</h3>
-            <span class='table__text'>Сосредоточьтесь на каком то одном навыке</span>
+            <div class='table__heading'>7</div>
+            <div class='table__text'>Сосредоточьтесь на каком то одном навыке</div>
           </div> 
           <div class='table__cell table__cell_theme_dark'>
-            <h3 class='table__heading'>8</h3>
-            <span class='table__text'>Определите целевой уровень мастерства</span>
+            <div class='table__heading'>8</div>
+            <div class='table__text'>Определите целевой уровень мастерства</div>
           </div> 
           <div class='table__cell table__cell_theme_dark'>
-            <h3 class='table__heading'>9</h3>
-            <span class='table__text'>Разбейте навык на элементы</span>
+            <div class='table__heading'>9</div>
+            <div class='table__text'>Разбейте навык на элементы</div>
           </div> 
           <div class='table__cell table__cell_theme_dark'>
-            <h3 class='table__heading table__cell_theme_dark'>10</h3>
-            <span class='table__text'>Приготовьте все необходимое для занятий</span>
+            <div class='table__heading'>10</div>
+            <div class='table__text'>Приготовьте все необходимое для занятий</div>
           </div>
                 
         </div>
       </section>
     </main>
-    <footer class="footer">
+    <footer class="footer border">
       <div class='footer__colomns'>
         <div class= 'footer__colomns_content'>
         <div class='logo_place_footer'>
