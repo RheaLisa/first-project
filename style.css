@@ -76,7 +76,7 @@ display: flex;
   margin-top: 64px;
   z-index: 0;
   position: absolute;
-  margin-top: 64px;
+  
 
 }
 .description {
@@ -106,7 +106,7 @@ display: flex;
   display: flex;
   width: 80%;
   flex-direction: column;
-  min-width: 784px ;
+  min-width: 784px;
   margin-bottom: 100px;
 }
 .two-colomn__paragraph {
@@ -152,7 +152,7 @@ position: relative;
 .table{
   display: flex;
   width: 1100px;
-  margin: auto ;
+  margin: auto;
   flex-wrap: wrap;
 
  }
@@ -171,7 +171,7 @@ position: relative;
 .table__text {
  line-height: 1.2em;
   font-size: 18px;
-  font-weight: normal; 
+  font-weight: normal;
   margin-top: 20px;
 }
 .bank {
@@ -206,7 +206,7 @@ position: relative;
   z-index: 1;
   display: flex;
   margin-top: 70px;
-  justify-content: center
+  justify-content: center;
 }
 
 .feynman__link {
