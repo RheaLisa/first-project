@@ -186,8 +186,10 @@ position: relative;
   background-repeat: no-repeat;
   background-position: bottom left;
   flex-direction: column;
-   align-content: center;
+  justify-content: center;
+  align-content: center;
   flex-wrap: wrap;
+  position: relative;
 }
 .feynman__title {
   line-height: 1.15;
@@ -214,10 +216,12 @@ position: relative;
   font-size: 36px;
   font-weight: normal;
   z-index: 1;
-  margin-top: 50%;
-  margin-left: 48px;
+  top: 50%;
+  margin-right: 48px;
  border: #2f80ed;
  text-decoration: none;
+ position: absolute;
+ right: 0;
 }
 .feynman__picture {
   position: absolute;
