@@ -81,7 +81,7 @@ display: flex;
   display: flex;
   justify-content: center;
 }
-.two-colomn {
+.two-colomns {
   display: flex;
   margin-top: 100px;
   min-width: 784px;
@@ -90,7 +90,7 @@ display: flex;
  
   
 }
-.two-colomn__brief {
+.two-colomns__brief {
   line-height: 1.2;
   font-size: 18px;
   font-weight: normal;
@@ -99,19 +99,19 @@ display: flex;
   color: #2f80ed;
 
 }
-.two-colomn__main-text {
+.two-colomns__main-text {
   display: flex;
   width: 80%;
   flex-direction: column;
   min-width: 784px;
   margin-bottom: 100px;
 }
-.two-colomn__paragraph {
+.two-colomns__paragraph {
   line-height: 34px;
   font-size: 24px;
   font-weight: normal;
 }
-.two-colomn__span-accent {
+.two-colomns__span-accent {
   line-height: 34px;
   font-size: 24px;
   font-weight:bold;
