@@ -277,6 +277,7 @@ position: relative;
 .footer__colomns {
   display: flex;
   flex-direction: row;
+  align-content: flex-start;
   justify-content: space-between;
   margin-top: 60px;
   margin-bottom: 40px;
@@ -287,6 +288,7 @@ position: relative;
   display: flex;
     flex-direction: column;
     justify-content: space-between;
+    width: 50%;
 }
 .footer__colomn_info {
   display: flex;
