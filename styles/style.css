@@ -167,6 +167,7 @@ border: #adabab 2px solid;
   font-size: 18px;
   font-weight: normal;
   margin-top: 20px;
+  margin-bottom: 0;
 }
 .feynman {
    height: 890px;
