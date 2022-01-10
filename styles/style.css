@@ -17,7 +17,7 @@
   justify-content: center;
   margin: 0 0 0 0;
   position: relative;
-  border: #adabab 2px solid;
+  background: #f2f2f2;
 }
 .logo {
   min-height: 32px;
@@ -82,11 +82,11 @@ margin-left: 64px;
 .description {
   display: flex;
   justify-content: center;
-  border: #adabab 2px solid;
-}
+
+ }
 .two-columns {
   display: flex;
-  margin-top: 100px;
+  margin-top: 70px;
   min-width: 784px;
   width: 80%;
   justify-content: space-between;
@@ -99,36 +99,35 @@ margin-left: 64px;
   font-weight: normal;
   width: 175px;
   color: #2f80ed;
-  margin: 0;
+  margin-top: 30px;
+  margin-bottom: 0;
 }
 .two-columns__main-text {
   width: 80%;
   flex-direction: column;
   min-width: 784px;
-  margin-bottom: 70px;
+  
 }
 .two-columns__paragraph {
   line-height: 34px;
   font-size: 24px;
   font-weight: normal;
-  margin-top: 0;
-  margin-bottom: 30px;
+  margin-top: 30px;
+  margin-bottom: 0;
 }
 .two-columns__span-accent {
   line-height: 34px;
   font-size: 24px;
   font-weight:bold;
-  margin-top: 30px;
-  margin-bottom: 30px;
-
-}
+ }
 
 .digits {
 display: flex;
 flex-direction: column;
 align-items: center;
 position: relative;
-border: #adabab 2px solid;
+margin-bottom: 100px;
+margin-top: 100px;
 }
 .section-title {
   line-height:  1.15em;
@@ -136,6 +135,7 @@ border: #adabab 2px solid;
   font-weight: bold;
   width: 60%;
   text-align: center;
+  margin: 0;
 }
  .section-subtitle {
   line-height: 34px;
@@ -144,12 +144,14 @@ border: #adabab 2px solid;
   margin-top: 20px;
   width: 60%;
   text-align: center;
+  margin-bottom: 0;
    }
 .table{
   display: flex;
   width: 1100px;
   margin: auto;
   flex-wrap: wrap;
+  justify-content: space-between;
 
  }
  .table__cell {
@@ -161,6 +163,7 @@ border: #adabab 2px solid;
   line-height: 1.15;
   font-size: 24px;
   font-weight: bold; 
+  margin: 0;
  }
 .table__text {
  line-height: 1.2em;
@@ -175,8 +178,7 @@ border: #adabab 2px solid;
   background: #f2f2f2;
   flex-direction: column;
    position: relative;
-  border: #adabab 2px solid;
-  align-items: center;
+   align-items: center;
 }
 .feynman__illustration {
   position: absolute;
@@ -205,6 +207,7 @@ border: #adabab 2px solid;
   display: flex;
   margin-top: 70px;
   justify-content: center;
+  margin-bottom: 0;
 }
 .feynman__link {
   line-height: 51px;
@@ -255,8 +258,6 @@ border: #adabab 2px solid;
 }
 .table__cell_theme_dark {
   margin-top: 80px;
-  margin-left: auto;
-  margin-right: auto;
   width: 200px;
   max-width: 20%;
   color: white;
@@ -306,6 +307,7 @@ width: 25%;
 }
 .footer__column-link {
   text-decoration: none;
+  color: white;
   
 }
 .footer__column-links {
