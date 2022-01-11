@@ -275,8 +275,7 @@ margin-top: 100px;
   display: flex;
   flex-direction: row;
   justify-content: center;
-  border: #adabab 2px solid;
-  box-sizing: border-box;
+   box-sizing: border-box;
 }
 .footer__columns {
   display: flex;
